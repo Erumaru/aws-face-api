@@ -3,27 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24DDEFFCAD89588F9EAD03F0 /* Pods_AWSFaceAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7FA1E7E852DAE9AB8BBB2CB /* Pods_AWSFaceAPI.framework */; };
+		E763D3CD263295DD00D3066D /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763D3CC263295DD00D3066D /* ImageView.swift */; };
+		E763D3E22632B9C400D3066D /* FaceDetectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763D3E12632B9C400D3066D /* FaceDetectorViewController.swift */; };
 		E7AD6EAA26301C800047C019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AD6EA926301C800047C019 /* AppDelegate.swift */; };
-		E7AD6EAC26301C800047C019 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AD6EAB26301C800047C019 /* SceneDelegate.swift */; };
 		E7AD6EAE26301C800047C019 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AD6EAD26301C800047C019 /* ViewController.swift */; };
-		E7AD6EB126301C800047C019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7AD6EAF26301C800047C019 /* Main.storyboard */; };
 		E7AD6EB326301C820047C019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7AD6EB226301C820047C019 /* Assets.xcassets */; };
 		E7AD6EB626301C820047C019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7AD6EB426301C820047C019 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3582DFA431A5FC23B2A648C8 /* Pods-AWSFaceAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSFaceAPI.debug.xcconfig"; path = "Target Support Files/Pods-AWSFaceAPI/Pods-AWSFaceAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		D7FA1E7E852DAE9AB8BBB2CB /* Pods_AWSFaceAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSFaceAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E763D3CC263295DD00D3066D /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		E763D3E12632B9C400D3066D /* FaceDetectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectorViewController.swift; sourceTree = "<group>"; };
 		E7AD6EA626301C800047C019 /* AWSFaceAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSFaceAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7AD6EA926301C800047C019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E7AD6EAB26301C800047C019 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E7AD6EAD26301C800047C019 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E7AD6EB026301C800047C019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7AD6EB226301C820047C019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7AD6EB526301C820047C019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7AD6EB726301C820047C019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED885CD295545B53409762D1 /* Pods-AWSFaceAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSFaceAPI.release.xcconfig"; path = "Target Support Files/Pods-AWSFaceAPI/Pods-AWSFaceAPI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24DDEFFCAD89588F9EAD03F0 /* Pods_AWSFaceAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		302EF3A86FE09051137E1716 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3582DFA431A5FC23B2A648C8 /* Pods-AWSFaceAPI.debug.xcconfig */,
+				ED885CD295545B53409762D1 /* Pods-AWSFaceAPI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		50272DA8E7A5F7E7CD903102 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7FA1E7E852DAE9AB8BBB2CB /* Pods_AWSFaceAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E7AD6E9D26301C800047C019 = {
 			isa = PBXGroup;
 			children = (
 				E7AD6EA826301C800047C019 /* AWSFaceAPI */,
 				E7AD6EA726301C800047C019 /* Products */,
+				302EF3A86FE09051137E1716 /* Pods */,
+				50272DA8E7A5F7E7CD903102 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +81,12 @@
 			isa = PBXGroup;
 			children = (
 				E7AD6EA926301C800047C019 /* AppDelegate.swift */,
-				E7AD6EAB26301C800047C019 /* SceneDelegate.swift */,
 				E7AD6EAD26301C800047C019 /* ViewController.swift */,
-				E7AD6EAF26301C800047C019 /* Main.storyboard */,
 				E7AD6EB226301C820047C019 /* Assets.xcassets */,
 				E7AD6EB426301C820047C019 /* LaunchScreen.storyboard */,
 				E7AD6EB726301C820047C019 /* Info.plist */,
+				E763D3CC263295DD00D3066D /* ImageView.swift */,
+				E763D3E12632B9C400D3066D /* FaceDetectorViewController.swift */,
 			);
 			path = AWSFaceAPI;
 			sourceTree = "<group>";
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7AD6EBA26301C820047C019 /* Build configuration list for PBXNativeTarget "AWSFaceAPI" */;
 			buildPhases = (
+				585BCCEC9064E5A4C6458642 /* [CP] Check Pods Manifest.lock */,
 				E7AD6EA226301C800047C019 /* Sources */,
 				E7AD6EA326301C800047C019 /* Frameworks */,
 				E7AD6EA426301C800047C019 /* Resources */,
+				B3210B2563AAD154C5792AA0 /* [CP] Embed Pods Frameworks */,
+				D325F8F4CEFE4964384BBA0F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,34 +153,85 @@
 			files = (
 				E7AD6EB626301C820047C019 /* LaunchScreen.storyboard in Resources */,
 				E7AD6EB326301C820047C019 /* Assets.xcassets in Resources */,
-				E7AD6EB126301C800047C019 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		585BCCEC9064E5A4C6458642 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWSFaceAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3210B2563AAD154C5792AA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AWSFaceAPI/Pods-AWSFaceAPI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AWSFaceAPI/Pods-AWSFaceAPI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AWSFaceAPI/Pods-AWSFaceAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D325F8F4CEFE4964384BBA0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AWSFaceAPI/Pods-AWSFaceAPI-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AWSFaceAPI/Pods-AWSFaceAPI-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AWSFaceAPI/Pods-AWSFaceAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E7AD6EA226301C800047C019 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E763D3CD263295DD00D3066D /* ImageView.swift in Sources */,
+				E763D3E22632B9C400D3066D /* FaceDetectorViewController.swift in Sources */,
 				E7AD6EAE26301C800047C019 /* ViewController.swift in Sources */,
 				E7AD6EAA26301C800047C019 /* AppDelegate.swift in Sources */,
-				E7AD6EAC26301C800047C019 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E7AD6EAF26301C800047C019 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E7AD6EB026301C800047C019 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E7AD6EB426301C820047C019 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +361,7 @@
 		};
 		E7AD6EBB26301C820047C019 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3582DFA431A5FC23B2A648C8 /* Pods-AWSFaceAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +381,7 @@
 		};
 		E7AD6EBC26301C820047C019 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED885CD295545B53409762D1 /* Pods-AWSFaceAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
